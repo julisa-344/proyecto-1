@@ -1,0 +1,147 @@
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffca74;
+}
+
+/* estilos generales */
+h1 {
+  margin-top: 32px;
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #2bab84;
+}
+h2 {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 2.4rem;
+  color: #78cf67;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 26px;
+  color: #484e4c;
+}
+a {
+  text-decoration: none;
+  color: #ffca74;
+}
+
+/* dando estilos al header */
+
+header {
+  height: 100px;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2bab84;
+  color: #ffca74;
+}
+header span {
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+header ul {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+header ul li {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* dando estilos al main */
+
+main {
+  padding: 0 32px;
+}
+section {
+  margin-top: 60px;
+}
+section ul {
+  margin: 24px;
+}
+section ul li {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 44px;
+  list-style: circle;
+  color: #6d726b;
+}
+section ul li:nth-child(odd) {
+  color: #2bab84;
+}
+section ul li:nth-child(even) {
+  color: #78cf67;
+}
+
+.container-img {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container-img img {
+  margin-bottom: 24px;
+  border: 2px solid #2bab84;
+  border-radius: 10px;
+}
+
+
+form [type="text"], textarea {
+  width: 96%;
+  margin-top: 32px;
+  padding: 16px;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+form [type="text"] {
+  border-bottom: 1px solid #2bab84;
+}
+form textarea {
+  height: 200px;
+  border: 1px solid #2bab84;
+}
+form [type="text"]:focus, textarea:focus{
+  outline: none;
+}
+[type="text"]:hover, textarea:hover {
+  box-shadow: -1px 12px 15px 0px #e7a63e;
+}
+
+
+button {
+  margin: 32px 0 100px 0;
+  padding: 16px 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background: #78cf67;
+  background: linear-gradient(90deg,#78cf67 0%,#2bab84 100%);
+  font-size: 2rem;
+  font-weight: 600;
+  color: #484e4c;
+}
+button:hover {
+  box-shadow: 7px 7px 14px 0px #2bab84;
+}
+button:active {
+  color: #6d726b;
+}
+
+/* dando estilos al footer */
+
+footer {
+  height: 100px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  background-color: #2bab84;
+}
